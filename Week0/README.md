@@ -1,15 +1,14 @@
-# Week 1 – The Math of Uncertainty
+# Week 0 – Onboarding
 
-Topics Studied:
-- Gaussian Distributions
-- Bayes' Theorem
-- KL Divergence
-- Intuition behind latent variable models
+Topics Learned:
+- Python fundamentals
+- NumPy basics
+- PyTorch tensors
+- Autograd
+- Neural network training workflow
+- Linear regression in PyTorch
 
-Resources:
-- 3Blue1Brown Bayes Theorem
-- 3Blue1Brown Normal Distribution
-- StatQuest KL Divergence
-
-Outcome:
-Built intuition for probabilistic modeling, which forms the foundation of VAEs and diffusion models.
+Activities:
+- Completed onboarding resources
+- Trained a simple linear regression model
+- Learned optimization using gradient descent
