@@ -1,23 +1,22 @@
-# Week 4 – ConvVAE and Latent Space Exploration
+# Week 4 – Convolutional Variational Autoencoder (ConvVAE)
 
 ## Topics Covered
-- Convolutional Variational Autoencoder (ConvVAE)
-- ELBO Loss
-- Reconstruction vs KL Divergence Tradeoff
-- Latent Space Visualization using t-SNE
-- Latent Space Interpolation
-- β-VAE Experiments
+- Convolutional Variational Autoencoders
+- MNIST dataset loading and preprocessing
+- Encoder and decoder design using convolutional layers
+- Reconstruction loss (BCE)
+- KL divergence regularization
+- Latent space visualization with t-SNE
+- Latent space interpolation
+- β-VAE experiments
 
-## Experiments Performed
-- Trained ConvVAE on MNIST
-- Visualized reconstruction quality
-- Generated new digits from latent space
-- Performed latent interpolation
-- Explored β values (0.0, 0.5, 2.0)
+## Activities
+- Implemented a ConvVAE in PyTorch
+- Trained the model on MNIST digits
+- Visualized reconstructions and generated samples
+- Explored latent space structure using t-SNE
+- Performed interpolation between latent representations
+- Studied the effect of different β values
 
-## Results
-- Successful digit reconstruction
-- Meaningful latent representations
-- Clear class separation in t-SNE visualization
-- Smooth transitions during interpolation
-- Observed effect of β on generation quality and regularization
+## Files
+- `Week4_ConvVAE.ipynb` – Complete implementation and experiments
