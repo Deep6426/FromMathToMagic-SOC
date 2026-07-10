@@ -104,8 +104,33 @@ Week8/
 - NumPy
 - PyTorch
 - Matplotlib
-- Scikit-learn
+- Pillow
+- imageio
 - Google Colab
+- Git
+- GitHub
+
+- ## Project Status
+
+Current Progress: Week 8 / Week 13
+
+Completed:
+
+- Mathematical foundations
+- Variational Autoencoders
+- Forward Diffusion Process
+- Noise Schedule Analysis
+
+Upcoming Work:
+
+- Reverse Diffusion
+- U-Net implementation
+- Noise Prediction Network
+- Image Generation
+
+- ## Conclusion
+
+This repository documents my Summer of Code journey from foundational probability concepts to implementing the forward diffusion process used in DDPMs. Throughout the first eight weeks, I progressively built the theoretical understanding and practical implementation required for diffusion models. The remaining weeks will focus on reverse diffusion, neural network training, and image generation to complete the full DDPM pipeline.
 
 ## Author
 
