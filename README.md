@@ -23,23 +23,7 @@ This repository documents my Summer of Code learning journey covering:
 ## Repository Structure
 
 ```
-Week0/
-├── README.md
 
-Week1/
-├── README.md
-
-Week2/
-├── README.md
-├── Week2_ELBO_Assignment.ipynb
-
-Week3/
-├── README.md
-├── Week3_VAE.ipynb
-
-Week4/
-├── README.md
-├── Week4_ConvVAE.ipynb
 Week0/
 Week1/
 Week2/
@@ -80,6 +64,39 @@ Week8/
 - t-SNE visualization of latent space
 - Latent space interpolation
 - β-VAE experiments
+- 
+  ## Week 5 – Dataset Preparation
+
+- Prepared CelebA dataset
+- Built custom PyTorch Dataset loader
+- Image preprocessing
+- Data pipeline setup
+
+---
+
+## Week 6 – Forward Diffusion Implementation
+
+- Implemented reusable ForwardDiffusion class
+- Linear beta schedule
+- Cosine beta schedule
+- Closed-form forward diffusion equation
+
+---
+
+## Week 7 – Numerical Verification & Visualization
+
+- Verified forward diffusion mathematically
+- Generated diffusion trajectory
+- Created destruction GIF
+- Visualized gradual image corruption
+
+---
+
+## Week 8 – Noise Schedule Comparison
+
+- Compared Linear vs Cosine schedules
+- Studied effect on image degradation
+- Completed reusable notebook for forward diffusion pipeline
 
 ## Tools Used
 
