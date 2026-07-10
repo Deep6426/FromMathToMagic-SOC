@@ -1,19 +1,25 @@
 # FromMathToMagic-SOC
 
-Summer of Code repository documenting my learning journey in the **From Math to Magic** project.
+Summer of Code repository documenting my implementation journey from the mathematical foundations of probabilistic models to the forward diffusion process used in Denoising Diffusion Probabilistic Models (DDPMs).
+
+This repository contains weekly notebooks, experiments, visualizations, and implementations completed during the first eight weeks of the project.
 
 ## Overview
 
-This repository contains weekly assignments, notes, implementations, and experiments related to:
+This repository documents my Summer of Code learning journey covering:
 
 - Probability and Statistics
+- Gaussian Distributions
+- Bayes' Theorem
 - KL Divergence
 - Evidence Lower Bound (ELBO)
-- Variational Autoencoders (VAEs)
+- Variational Autoencoders (VAE)
 - Convolutional VAEs
 - Latent Space Analysis
-- Deep Learning with PyTorch
-
+- Denoising Diffusion Probabilistic Models (DDPM)
+- Forward Diffusion Process
+- Linear and Cosine Noise Schedules
+- PyTorch Implementations
 ## Repository Structure
 
 ```
@@ -34,6 +40,15 @@ Week3/
 Week4/
 ├── README.md
 ├── Week4_ConvVAE.ipynb
+Week0/
+Week1/
+Week2/
+Week3/
+Week4/
+Week5/
+Week6/
+Week7/
+Week8/
 ```
 
 ## Weekly Progress
