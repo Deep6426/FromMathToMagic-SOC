@@ -1,8 +1,27 @@
-# FromMathToMagic-SOC
+# From Math to Magic
 
-Summer of Code repository documenting my implementation journey from the mathematical foundations of probabilistic models to the forward diffusion process used in Denoising Diffusion Probabilistic Models (DDPMs).
+> Building the mathematical and deep-learning foundations behind diffusion models — from probability and VAEs to DDPM forward diffusion using PyTorch.
 
-This repository contains weekly notebooks, experiments, visualizations, and implementations completed during the first eight weeks of the project.
+**From Math to Magic** is an implementation-driven exploration of generative modeling and diffusion models.
+
+The project starts from the mathematical foundations of probabilistic modeling and progressively builds toward the **forward diffusion process used in Denoising Diffusion Probabilistic Models (DDPMs)**.
+
+Rather than treating diffusion models as a black box, this project focuses on understanding and implementing the underlying mathematics, latent representations, neural networks, and diffusion processes using **PyTorch**.
+
+## 🧠 What I Built
+
+The project covers:
+
+- Probability and probabilistic modeling
+- Gaussian distributions and Bayes' theorem
+- KL Divergence and ELBO
+- Variational Autoencoders (VAE)
+- Convolutional VAEs
+- Latent-space analysis and interpolation
+- CelebA dataset preparation and preprocessing
+- DDPM forward diffusion
+- Linear and cosine noise schedules
+- Numerical verification and visualization of the diffusion process
 
 ## Overview
 
