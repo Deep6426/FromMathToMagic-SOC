@@ -8,7 +8,7 @@ The project starts from the mathematical foundations of probabilistic modeling a
 
 Rather than treating diffusion models as a black box, this project focuses on understanding and implementing the underlying mathematics, latent representations, neural networks, and diffusion processes using **PyTorch**.
 
-## 🧠 What I Built
+##  What I Built
 
 The project covers:
 
@@ -23,7 +23,7 @@ The project covers:
 - Linear and cosine noise schedules
 - Numerical verification and visualization of the diffusion process
 
-- ## 🛠️ Tech Stack
+- ##  Tech Stack
 
 - **Language:** Python
 - **Deep Learning:** PyTorch
@@ -33,22 +33,44 @@ The project covers:
 - **Environment:** Jupyter Notebook, Google Colab
 - **Version Control:** Git, GitHub
 
-## Overview
+##  Key Implementations
 
-This repository documents my Summer of Code learning journey covering:
+### 1. Variational Autoencoder (VAE)
 
-- Probability and Statistics
-- Gaussian Distributions
-- Bayes' Theorem
-- KL Divergence
-- Evidence Lower Bound (ELBO)
-- Variational Autoencoders (VAE)
-- Convolutional VAEs
-- Latent Space Analysis
-- Denoising Diffusion Probabilistic Models (DDPM)
-- Forward Diffusion Process
-- Linear and Cosine Noise Schedules
-- PyTorch Implementations
+- Implemented a fully connected Variational Autoencoder using PyTorch.
+- Trained the model on the MNIST dataset.
+- Implemented the reconstruction and KL-divergence components of the VAE objective.
+- Visualized learned latent representations.
+
+### 2. Convolutional VAE
+
+- Built a Convolutional VAE using convolutional neural network layers.
+- Generated and reconstructed MNIST digits.
+- Visualized the latent space using t-SNE.
+- Performed latent-space interpolation.
+- Experimented with β-VAE configurations.
+
+### 3. CelebA Data Pipeline
+
+- Prepared the CelebA dataset for diffusion experiments.
+- Implemented a custom PyTorch Dataset loader.
+- Performed image preprocessing and transformation.
+- Built the data pipeline for diffusion experiments.
+
+### 4. DDPM Forward Diffusion
+
+- Implemented a reusable `ForwardDiffusion` class in PyTorch.
+- Implemented linear and cosine β schedules.
+- Implemented the closed-form forward diffusion equation.
+- Verified the mathematical formulation numerically.
+- Visualized progressive image corruption across diffusion timesteps.
+
+### 5. Diffusion Process Analysis
+
+- Generated diffusion trajectories showing the gradual addition of noise.
+- Created visualizations and a destruction GIF to analyze image degradation.
+- Compared linear and cosine noise schedules.
+- Studied the effect of different schedules on image degradation.
 ## Repository Structure
 
 ```
