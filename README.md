@@ -54,8 +54,8 @@ The project covers:
 
 - Prepared the CelebA dataset for diffusion experiments.
 - Implemented a custom PyTorch Dataset loader.
-- Performed image preprocessing and transformation.
-- Built the data pipeline for diffusion experiments.
+- Applied image preprocessing and transformations.
+- Set up the data pipeline for subsequent diffusion experiments.
 
 ### 4. DDPM Forward Diffusion
 
@@ -70,7 +70,7 @@ The project covers:
 - Generated diffusion trajectories showing the gradual addition of noise.
 - Created visualizations and a destruction GIF to analyze image degradation.
 - Compared linear and cosine noise schedules.
-- Studied the effect of different schedules on image degradation.
+- Analyzed how different noise schedules affect the rate of image degradation.
 ## Repository Structure
 
 ```
