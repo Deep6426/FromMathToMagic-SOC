@@ -23,6 +23,16 @@ The project covers:
 - Linear and cosine noise schedules
 - Numerical verification and visualization of the diffusion process
 
+- ## 🛠️ Tech Stack
+
+- **Language:** Python
+- **Deep Learning:** PyTorch
+- **Numerical Computing:** NumPy
+- **Visualization:** Matplotlib
+- **Image Processing:** Pillow, ImageIO
+- **Environment:** Jupyter Notebook, Google Colab
+- **Version Control:** Git, GitHub
+
 ## Overview
 
 This repository documents my Summer of Code learning journey covering:
