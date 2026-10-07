@@ -153,7 +153,7 @@ Week8/
 
 - ## Project Status
 
-Current Progress: Week 8 / Week 13
+Current Progress: Week 8 
 
 Completed:
 
