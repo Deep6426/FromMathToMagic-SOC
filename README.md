@@ -127,17 +127,7 @@ Week8/
 - Studied effect on image degradation
 - Completed reusable notebook for forward diffusion pipeline
 
-## Tools Used
 
-- Python
-- NumPy
-- PyTorch
-- Matplotlib
-- Pillow
-- imageio
-- Google Colab
-- Git
-- GitHub
 
 - ## Project Status
 
